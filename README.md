@@ -5,26 +5,29 @@
 
 ## **Key Steps:**
 
-**Data Preprocessing:**
+### **Data Preprocessing:**
 
-Removal of punctuation, special characters, and numbers.
-Tokenization, lemmatization, and stemming for text standardization.
+-Removal of punctuation, special characters, and numbers.
 
-**Feature Extraction:**
+-Tokenization, lemmatization, and stemming for text standardization.
 
-Utilization of TF-IDF (Term Frequency-Inverse Document Frequency) for effective feature extraction.
+### **Feature Extraction:**
 
-**Data Balancing:**
+-Utilization of TF-IDF (Term Frequency-Inverse Document Frequency) for effective feature extraction.
 
-Achieved a balanced dataset using SMOTE (Synthetic Minority Over-sampling Technique) to ensure unbiased model training.
+### **Data Balancing:**
 
-**Model Building:**
-Implemented three distinct models for sentiment analysis.
+-Achieved a balanced dataset using SMOTE (Synthetic Minority Over-sampling Technique) to ensure unbiased model training.
 
-Model 1: Simple Feedforward Neural Network.
-Model 2: Convolutional Neural Network (CNN).
-Model 3: Improved CNN with Batch Normalization, Dropout, and Early Stopping for enhanced generalization.
+### **Model Building:**
+ **Implemented three distinct models for sentiment analysis.**
 
-**Model Evaluation:**
+**Model 1:** Simple Feedforward Neural Network.
 
-Evaluation metrics include confusion matrix and classification report for a comprehensive performance. 
+**Model 2:** Convolutional Neural Network (CNN).
+
+**Model 3:** Improved CNN with Batch Normalization, Dropout, and Early Stopping for enhanced generalization.
+
+### **Model Evaluation:**
+
+-Evaluation metrics include confusion matrix and classification report for a comprehensive performance. 
